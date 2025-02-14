@@ -41,7 +41,8 @@ Complete the implementation of the following functions:
 
 ## Testing Requirements
 - **Test File**: You must pass all tests in `test_p3.py`.
-- **Additional Tests**: Write your own tests in `test_student.py`. There are no set expectations on your tests; they are primarily to ensure your code is prepared for potential test cases that might be used for evaluation.
+- **Additional Tests**: Write your own tests in `test_student.py`. There are no set expectations on your tests; they are primarily to ensure your code is prepared for potential test cases that might be used for evaluation. 
+-I recommend writing tests for these smaller functions before writing code. 
 
 ## Instructions
 1. **Understand Huffman Coding**: Before you start, make sure you understand how Huffman coding works.
