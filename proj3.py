@@ -113,7 +113,7 @@ def build_tree_from_queue(priority_queue: MinHeap) -> Node:
         heap, left = extract_min(heap)
         heap, right = extract_min(heap)
 
-        if right < left:
+        if right.freq < left.freq:
             left, right = right, left
 
         combined_freq: int = left.freq + right.freq
