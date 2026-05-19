@@ -40,6 +40,5 @@ class TestHuffmanEncoding(unittest.TestCase):
         self.assertEqual(codes, expected_codes)
 
 
-
 if __name__ == "__main__":
     unittest.main()
